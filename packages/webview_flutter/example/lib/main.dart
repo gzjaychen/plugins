@@ -10,7 +10,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-void main() => runApp(MaterialApp(home: WebViewExample()));
+import 'flutter_page.dart';
+
+void main() => runApp(MaterialApp(home: FlutterPage()));
 
 const String kNavigationExamplePage = '''
 <!DOCTYPE html><html>
